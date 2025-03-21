@@ -1,0 +1,8 @@
+{
+    "Base": true,
+    "Auth": true,
+    "Keywords": true,
+    "Accounts": true,
+    "Products": true,
+    "Sell": true
+}

@@ -1,0 +1,25 @@
+{
+    "name": "dinhthang/file-uploader",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dinhthang\\FileUploader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dinhthangpham",
+            "email": "dinhthang.phamm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dinhthang\\FileUploader\\FileUploaderServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}

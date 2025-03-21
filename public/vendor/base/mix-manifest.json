@@ -1,0 +1,10 @@
+{
+    "/js/base.js": "/js/base.js",
+    "/js/vote.js": "/js/vote.js",
+    "/js/user_detail.js": "/js/user_detail.js",
+    "/js/user_change_password.js": "/js/user_change_password.js",
+    "/css/base.css": "/css/base.css",
+    "/css/vote.css": "/css/vote.css",
+    "/css/base.min.css": "/css/base.min.css",
+    "/css/vote.min.css": "/css/vote.min.css"
+}

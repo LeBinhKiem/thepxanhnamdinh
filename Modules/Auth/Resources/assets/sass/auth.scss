@@ -1,0 +1,100 @@
+.body-auth {
+  background-color: #f8f9fa
+}
+
+.container-auth {
+  width: 1200px;
+}
+
+.login-right, .login-left {
+  flex: 1;
+}
+
+.login-left {
+  padding: 10px;
+
+  & .login-left__header {
+
+  }
+
+  & .login-left__body {
+    padding: 50px;
+    margin-top: 30px;
+  }
+
+}
+
+.login-right .img-login {
+  width: 100%;
+}
+
+.login-left__body {
+  & .title {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+}
+
+.btn-login-other {
+  & img {
+    width: 19px;
+    margin-right: 5px;
+  }
+
+  & .name {
+    min-width: 75px;
+  }
+}
+
+.field-password {
+  position: relative;
+
+  & i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    font-weight: 100;
+  }
+}
+
+.btn-login-other:hover {
+  background-color: #dee2e6 !important;
+}
+
+
+@media screen and (max-width: 1240px) {
+  .login-right {
+    display: none !important;
+  }
+  .container-auth {
+    width: 600px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  body {
+    background-color: white;
+  }
+}
+
+.show-password.active {
+  & .icon-show {
+    display: block;
+  }
+
+  & .icon-not-show {
+    display: none;
+  }
+}
+
+.show-password {
+  & .icon-not-show {
+    display: block;
+  }
+
+  & .icon-show {
+    display: none;
+  }
+}
