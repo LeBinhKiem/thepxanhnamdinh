@@ -2,13 +2,11 @@
 
 
 # Cài đặt
-1. Thiết lập host ảo `admin.tglearning.xyz`
-2. Cài NPM `npm install`
-3. Cài Composer `composer install`
-4. Chạy asset modules `sh start.sh`
+1. Xóa folder vendor
+2. Cài Composer `composer install`
+3. Gõ cmd php artisan storage:link
+4. Gõ cmd php artisan serve
 
 
-# Package 
-`Tag`: https://github.com/yairEO/tagify
 
 
